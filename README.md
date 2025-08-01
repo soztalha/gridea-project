@@ -1,3 +1,3 @@
 Gridea-project
 
-Hakkımızda and İŞ birlikçilerimiz page
+Hakkımızda and İş Birlikçilerimiz page
