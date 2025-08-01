@@ -1,0 +1,23 @@
+.slider {
+  width: 400px;
+  height: 250px;
+
+  border-radius: 8px;
+  box-shadow: 0px 0px 25px #0f2d5965;
+
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .swiper-slide img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    object-position: center;
+  }
+}

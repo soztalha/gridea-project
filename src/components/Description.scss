@@ -1,0 +1,43 @@
+.about-tabs {
+  .titles {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 4.5%;
+    color: #0f2c59;
+
+    .subtitle {
+      cursor: pointer;
+      font-size: 1.5rem;
+      font-weight: 500;
+      transition: font-weight 0.4s, transform 0.4s, text-shadow 0.4s;
+    }
+
+    .active-title {
+      text-shadow: #0f2d594c 0 0 2px;
+      font-weight: 700;
+      transform: translateY(-5px);
+    }
+  }
+
+  .line-slider {
+    position: relative;
+    height: 3px;
+    margin-top: 0.6rem;
+    background-color: #c5c3d1;
+
+    .current-line {
+      position: absolute;
+      top: -2px;
+      left: 0;
+      height: 7px;
+      background-color: #0f2c59;
+      box-shadow: #0f2d5961 0 3px 7px;
+    }
+  }
+
+  .description-slider {
+    .description {
+      padding-top: 1.25rem;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.page-header {
+  position: relative;
+  align-content: center;
+  width: 100%;
+  min-height: 85px;
+  text-align: center;
+  background-color: #0f2c59;
+  overflow: hidden;
+  h1 {
+    font-weight: 700;
+    color: white;
+    font-size: 3rem;
+    padding: 1.25rem 3rem;
+  }
+}
+.logo-left {
+  transform: translateX(-50%);
+  left: 0;
+  position: absolute;
+  height: 100%;
+  width: auto;
+  top: 0;
+}
+.logo-right {
+  transform: translateX(50%);
+  right: 0;
+  position: absolute;
+  height: 100%;
+  width: auto;
+  top: 0;
+}

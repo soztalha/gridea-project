@@ -1,0 +1,43 @@
+@media (max-width: 900px) {
+  .isbirliklerimiz {
+    .section-container {
+      padding: 1.5rem 1.5rem;
+    }
+    .collaborators {
+      gap: 1.2rem;
+      &.collaborators--large img {
+        width: 110px;
+        height: 110px;
+      }
+      img {
+        width: 80px;
+        height: 80px;
+      }
+    }
+    .page-header h1 {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .isbirliklerimiz {
+    .section-container {
+      padding: 1rem 0.5rem;
+    }
+    .collaborators {
+      gap: 0.7rem;
+      &.collaborators--large img {
+        width: 75px;
+        height: 75px;
+      }
+      img {
+        width: 55px;
+        height: 55px;
+      }
+    }
+    .page-header h1 {
+      font-size: 1.1rem;
+    }
+  }
+}

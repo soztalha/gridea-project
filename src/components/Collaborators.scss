@@ -1,0 +1,33 @@
+.collaborators {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.75rem;
+  padding: 2.5rem 10%;
+
+  img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.4s;
+
+    &:hover {
+      transform: translateY(-3px);
+    }
+  }
+
+  &.collaborators--large {
+    gap: 2.5rem;
+    padding: 3.5rem 10%;
+
+    img {
+      width: 200px;
+      height: 200px;
+
+      &:hover {
+        transform: translateY(-5px);
+      }
+    }
+  }
+}
